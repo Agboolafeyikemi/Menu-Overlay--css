@@ -67,19 +67,18 @@
 
 /* Turns Lines Into X */
 .menu-wrap .toggler:checked + .hamburger > div:before,
- .menu-wrap .toggler:checked + .hamburger > div:after {
+.menu-wrap .toggler:checked + .hamburger > div:after {
   top: 0;
   transform: rotate(90deg);
 }
 
-/*
 /* Rotate On Hover When Checked */
 .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(225deg);
 }
 
 /* Show Menu */
-/* .menu-wrap .toggler:checked ~ .menu {
+.menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
 
@@ -142,4 +141,4 @@
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
   color: var(--secondary-color);
-} */
+}
